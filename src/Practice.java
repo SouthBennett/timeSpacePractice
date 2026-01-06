@@ -18,7 +18,7 @@ public class Practice {
   }
 
   // Time Complexity: O(n) where n = length of matrix
-  // Space Complexity: O(n)
+  // Space Complexity: O(n)1
   public static int sumDiagonal(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
