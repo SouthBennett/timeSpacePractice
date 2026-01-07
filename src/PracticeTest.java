@@ -29,7 +29,7 @@ public class PracticeTest {
 
   @Test
   public void testASingleElement() {
-    int [] nums = {24};
+    int [] nums = {42};
 
     int result = Practice.mostCommonTimeEfficient(nums);
 
