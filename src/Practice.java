@@ -18,7 +18,7 @@ public class Practice {
   }
 
   // Time Complexity: O(n) where n = length of matrix
-  // Space Complexity: O(n)1
+  // Space Complexity: O(1)
   public static int sumDiagonal(int[][] matrix) {
     int sum = 0;
     for (int i = 0; i < matrix.length; i++) {
@@ -28,8 +28,8 @@ public class Practice {
   }
   
 
-  // Time Complexity: 
-  // Space Complexity: 
+  // Time Complexity: O(n) where n = array.length
+  // Space Complexity: O(n) as hashmap grows more space is used
   // Does the 'T' look confusing? Consider refreshing on generic methods
   // We'll revisit generics as a class later
   public static <T> Map<T, Integer> countFrequencies(T[] array) {
