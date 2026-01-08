@@ -111,6 +111,25 @@ public class Practice {
   public static int mostCommonSpaceEfficient(int[] nums) {
     // TODO: Complete this method with an implementation that runs
     // in O(1) space.
-    return -1;
+    int a = nums[0];
+    int bc = 0;
+
+    for (int i = 0; i < nums.length; i++) {
+      int count = 0;
+
+      for (int j = 0; j < nums.length; j++) {
+        if(nums[j] == nums[i]){
+          count ++;
+        }
+      }
+      if(bc < count){
+        bc = count;
+        a = nums[i];
+      }
+
+    }
+
+
+    return a;
   }
 }

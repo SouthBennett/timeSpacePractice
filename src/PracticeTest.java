@@ -35,4 +35,14 @@ public class PracticeTest {
 
     assertEquals(42, result);
   }
+
+
+  @Test
+  public void testCommonSpaceEfficent(){
+    int [] nums = {2,5,6,8,3,8,8,8,2,2,6,7,3};
+
+    int result = Practice.mostCommonSpaceEfficient(nums);
+
+    assertEquals(8, result);
+  }
 }
